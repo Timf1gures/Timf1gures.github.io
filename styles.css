@@ -1,0 +1,205 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+H1,
+H2,
+H3 {
+  margin-top: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/* Resets end /*
+
+
+/* Navigation
+=================*/
+
+.navigation {
+  background-color: rgb(255, 255, 255);
+  /*padding: 20px;*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.nav-menu a {
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin-left: 35px;
+}
+.nav-menu li {
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar .logo {
+  font-size: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.nav-menu a:hover {
+  padding-bottom: 5px;
+  border-bottom: 3px red solid;
+  transition: 0.2s;
+  
+}
+
+/* Navigation END 
+=====================*/
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/banner-mclaren.jpg");
+  background-position: 0px -375px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  flex: 1;
+  position: relative;
+  top: 81px;
+}
+
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  padding: 85px 0px;
+}
+
+.hero-banner h2 {
+  align-self: center;
+  font-size: 8rem;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  color: aliceblue;
+}
+
+.hero-banner p {
+  align-self: center;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  color: aliceblue;
+}
+
+/* Hero-Banner END*/
+
+/* Mission Statement*/
+
+.mission-statement {
+  position: relative;
+  top: 100px;
+}
+
+.mission {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(232, 232, 232);
+  border-radius: 30px;
+  margin: 0px 20px;
+
+}
+
+.mission h3 {
+  padding: 30px;
+  margin: 0;
+  align-self: center;
+  width: 700px;
+  font-size: 25px;
+}
+
+.mission p {
+  padding: 30px;
+  margin: 0;
+  align-self: center;
+  width: 700px;
+}
+
+/* Team */
+.team {
+    position: relative;
+    top: 123px;
+}
+
+
+.team-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-auto-flow: column
+}
+
+.team-imgs img {
+    border-radius: 10px;
+}
+
+.jonathan img {
+  width: 300px;
+  height: auto;
+  position: relative;
+}
+.jonathan p {
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
+
+
+
+
+
+.jeff img {
+  width: 300px;
+  height: auto;
+  position: relative;
+}
+.jeff p {
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
+
+
+
+
+
+.jenna img {
+  width: 300px;
+  height: auto;
+  position: relative;
+}
+.jenna p {
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
